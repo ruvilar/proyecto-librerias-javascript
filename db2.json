@@ -1,9 +1,0 @@
-{
-    "tasks": [
-    { "id": 1, 
-      "title": "Creando proyecto JSON 1" ,
-      "responsable": "Rodolfo Vilar",
-      "state": "IN PROGRESS"
-    }
-    ]
-}
