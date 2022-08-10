@@ -1,0 +1,25 @@
+{
+    "tasks": [
+    { "id": 1, 
+      "title": "Crear proyecto JSON 1" ,
+      "responsable": "Rodolfo Vilar",
+      "state": "TO DO",
+      "deadline": 1660559692,
+      "created": 1660041292
+    },
+    { "id": 2, 
+      "title": "Crear proyecto JSON 2" ,
+      "responsable": "Rodolfo Vilar",
+      "state": "TO DO",
+      "deadline": 1670559692,
+      "created": 1670041292
+    },
+    { "id": 3, 
+      "title": "Crear proyecto JSON 3" ,
+      "responsable": "Rodolfo Vilar",
+      "state": "TO DO",
+      "deadline": 1680559692,
+      "created": 1680041292
+    }
+    ]
+  }
