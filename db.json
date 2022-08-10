@@ -1,25 +1,46 @@
 {
     "tasks": [
     { "id": 1, 
-      "title": "Crear proyecto JSON 1" ,
+      "title": "Proyecto JSON 1 creado",
       "responsable": "Rodolfo Vilar",
-      "state": "TO DO",
+      "state": "DONE",
       "deadline": 1660559692,
       "created": 1660041292
     },
     { "id": 2, 
-      "title": "Crear proyecto JSON 2" ,
+      "title": "Proyecto JSON 2 creado",
       "responsable": "Rodolfo Vilar",
-      "state": "TO DO",
+      "state": "DONE",
       "deadline": 1670559692,
       "created": 1670041292
     },
     { "id": 3, 
-      "title": "Crear proyecto JSON 3" ,
+      "title": "Creando proyecto JSON 3",
       "responsable": "Rodolfo Vilar",
-      "state": "TO DO",
+      "state": "IN PROGRESS",
       "deadline": 1680559692,
       "created": 1680041292
+    },
+    { "id": 4, 
+      "title": "Crear proyecto JSON 4",
+      "responsable": "Rodolfo Vilar",
+      "state": "TO DO",
+      "deadline": 1690559692,
+      "created": 1690041292
+    },
+    { "id": 5, 
+      "title": "Crear proyecto JSON 5",
+      "responsable": "Rodolfo Vilar",
+      "state": "TO DO",
+      "deadline": 1700559692,
+      "created": 1700041292
+    },
+    { "id": 6, 
+      "title": "Crear proyecto JSON 6",
+      "responsable": "Rodolfo Vilar",
+      "state": "TO DO",
+      "deadline": 1710559692,
+      "created": 1710041292
     }
     ]
   }

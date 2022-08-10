@@ -8,14 +8,45 @@
     <title>Aprende Javascript con EDteam</title>
     
     <style>
+
+        body {
+            display: grid;
+        }
         
         h1 {
             font-size: 1.3rem;
 			text-align: center;
 			color: #971320;
 		}
+
+        img {
+            width: 20%;
+        }
         
-        </style>
+        .main-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .button {
+            display: block;
+            margin: 10px 20px;
+            background: orange;
+            border-radius: 5px;
+            font-size: 1.5em;
+            border: none;
+            box-shadow: 1px 1px 5px #000;
+            cursor: pointer;
+        }
+
+        article {
+            border: 3px solid #996600;
+            width: 300px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        
+    </style>
 
     <!-- <script type="text/javascript" src="/moment.js"></script> -->
     <!-- <script type="text/javascript" src="/hammer.js"></script> -->
@@ -39,57 +70,25 @@
     </header>
     
     <main>
+        <h2>SimpleScrum</h2>
         <div class="main-container">
-            <h2>SimpleScrum</h2>
             <div class="container">
                 <h3>TO DO</h3>
                 <div class="task-container" id="toDoTasks">
-                    <!-- <article class="task">
-                        <h4>Crear proyecto JSON 1</h4>
-                        <p>Responsable: <span>Rodolfo Vilar</span></p>
-                        <p>Plazo: <span>08/09/2022</span></p>
-                    </article>
-                    <article class="task">
-                        <h4>Crear proyecto JSON 2</h4>
-                        <p>Responsable: <span>Rodolfo Vilar</span></p>
-                        <p>Plazo: <span>08/09/2022</span></p>
-                    </article>
-                    <article class="task">
-                        <h4>Crear proyecto JSON 3</h4>
-                        <p>Responsable: <span>Rodolfo Vilar</span></p>
-                        <p>Plazo: <span>08/09/2022</span></p>
-                    </article>
-                    <article class="task">
-                        <h4>Crear proyecto JSON 4</h4>
-                        <p>Responsable: <span>Rodolfo Vilar</span></p>
-                        <p>Plazo: <span>08/09/2022</span></p>
-                    </article> -->
+                    <!-- Contenido ToDo -->
                 </div>
             </div>
             <div class="container">
                 <h3>IN PROGRESS</h3>
-                <!-- <div class="task-container" id="inProgressTasks">
-                    <article class="task">
-                        <h4>Creando proyecto JSON 1</h4>
-                        <p>Responsable: <span>Rodolfo Vilar</span></p>
-                        <p>Plazo: <span>08/09/2022</span></p>
-                    </article>
-                </div> -->
+                <div class="task-container" id="inProgressTasks">
+                    <!-- Contenido InProgress -->
+                </div>
             </div>
             <div class="container">
                 <h3>DONE</h3>
-                <!-- <div class="task-container" id="doneTasks">
-                    <article class="task">
-                        <h4>Proyecto JSON 1 creado</h4>
-                        <p>Responsable: <span>Rodolfo Vilar</span></p>
-                        <p>Plazo: <span>08/09/2022</span></p>
-                    </article>
-                    <article class="task">
-                        <h4>Proyecto JSON 2 creado</h4>
-                        <p>Responsable: <span>Rodolfo Vilar</span></p>
-                        <p>Plazo: <span>08/09/2022</span></p>
-                    </article>
-                </div> -->
+                <div class="task-container" id="doneTasks">
+                    <!-- Contenido Done -->
+                </div>
             </div>
         </div>
     </main>
@@ -130,7 +129,7 @@
         </div>
     </aside>
 
-    <script type="text/javascript" src="/axios.js"></script>
-    <script type="text/javascript" src="/moduloFinal.js"></script>
+    <script type="text/javascript" src="../axios.js"></script>
+    <script type="text/javascript" src="moduloFinal.js"></script>
 </body>
 </html>
