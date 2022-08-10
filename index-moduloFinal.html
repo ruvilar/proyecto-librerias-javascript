@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Javascript con EDteam</title>
+    
+    <style>
+        
+        h1 {
+            font-size: 1.3rem;
+			text-align: center;
+			color: #971320;
+		}
+        
+        </style>
+
+    <!-- <script type="text/javascript" src="/moment.js"></script> -->
+    <!-- <script type="text/javascript" src="/hammer.js"></script> -->
+    <!---------- Draggable only ---------->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/draggable.js"></script> -->
+    <!---------- Droppable only ---------->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/droppable.js"></script> -->
+    <!-- Sortable only -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/sortable.js"></script> -->
+</head>
+
+<body>
+    
+    <h1>Librerías Javascript. Proyecto Final SimpleScrum</h1>
+    
+    <header>
+        <div class="header-container">
+            <img src="/images/logo.svg" alt="Logo SimpleScrum">
+            <button id="newTask" class="button">Crear Tarea</button>
+        </div>
+    </header>
+    
+    <main>
+        <div class="main-container">
+            <h2>SimpleScrum</h2>
+            <div class="container">
+                <h3>TO DO</h3>
+                <div class="task-container" id="toDoTasks">
+                    <!-- <article class="task">
+                        <h4>Crear proyecto JSON 1</h4>
+                        <p>Responsable: <span>Rodolfo Vilar</span></p>
+                        <p>Plazo: <span>08/09/2022</span></p>
+                    </article>
+                    <article class="task">
+                        <h4>Crear proyecto JSON 2</h4>
+                        <p>Responsable: <span>Rodolfo Vilar</span></p>
+                        <p>Plazo: <span>08/09/2022</span></p>
+                    </article>
+                    <article class="task">
+                        <h4>Crear proyecto JSON 3</h4>
+                        <p>Responsable: <span>Rodolfo Vilar</span></p>
+                        <p>Plazo: <span>08/09/2022</span></p>
+                    </article>
+                    <article class="task">
+                        <h4>Crear proyecto JSON 4</h4>
+                        <p>Responsable: <span>Rodolfo Vilar</span></p>
+                        <p>Plazo: <span>08/09/2022</span></p>
+                    </article> -->
+                </div>
+            </div>
+            <div class="container">
+                <h3>IN PROGRESS</h3>
+                <div class="task-container" id="inProgressTasks">
+                    <article class="task">
+                        <h4>Creando proyecto JSON 1</h4>
+                        <p>Responsable: <span>Rodolfo Vilar</span></p>
+                        <p>Plazo: <span>08/09/2022</span></p>
+                    </article>
+                </div>
+            </div>
+            <div class="container">
+                <h3>DONE</h3>
+                <div class="task-container" id="doneTasks">
+                    <article class="task">
+                        <h4>Proyecto JSON 1 creado</h4>
+                        <p>Responsable: <span>Rodolfo Vilar</span></p>
+                        <p>Plazo: <span>08/09/2022</span></p>
+                    </article>
+                    <article class="task">
+                        <h4>Proyecto JSON 2 creado</h4>
+                        <p>Responsable: <span>Rodolfo Vilar</span></p>
+                        <p>Plazo: <span>08/09/2022</span></p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <aside>
+        <div class="aside-container">
+            <h2>Nueva Tarea</h2>
+            <div class="form-container">
+                <form>
+                    <div class="input-container">
+                        <label for="titleTask">Título</label>
+                        <input type="text" name="titleTask" id="titleTask" placeholder="Escriba un título descriptivo">
+                    </div>
+                    <div class="input-container">
+                        <label for="respTask">Responsable</label>
+                        <select name="respTask" id="respTask">
+                            <option value="">-Seleccionar-</option>
+                            <option value="rodolar">Rodolfo Vilar</option>
+                            <option value="javilei">Javier Milei</option>
+                            <option value="isalonso">María Isabel Alonso</option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label for="deadlineTask">Plazo de Entrega</label>
+                        <select name="deadlineTask" id="deadlineTask">
+                            <option value="">-Seleccionar-</option>
+                            <option value="one">1 día</option>
+                            <option value="two">2 días</option>
+                            <option value="seven">1 semana</option>
+                        </select>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit">Guardar</button>
+                        <button type="reset">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </aside>
+
+    <script type="text/javascript" src="/axios.js"></script>
+    <script type="text/javascript" src="/moduloFinal.js"></script>
+</body>
+</html>
