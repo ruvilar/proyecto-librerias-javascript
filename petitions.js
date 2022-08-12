@@ -11,7 +11,7 @@ const fillTasks = data => {
             taskDescription = document.createElement('p')
 
         taskTitle.innerHTML = `${val.title}<hr>`;
-        taskDescription.innerHTML = `<b>Responsable:</b> ${val.responsable}<br> <b>Estado:</b> ${val.state}<br> <b>Fecha Límite:</b> ${val.deadline}<br> <b>Fecha de Creación:</b> ${val.created}`;
+        taskDescription.innerHTML = `<b>Responsable:</b> ${val.responsable}<br> <b>Fecha de Creación:</b> ${timeToDate(val.created)}<br> <b>Fecha Límite:</b> ${timeToDate(val.deadline)}`;
 
         newTask.appendChild(taskTitle);
         newTask.appendChild(taskDescription);

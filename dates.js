@@ -1,0 +1,1 @@
+const timeToDate = (time, format = 'DD/MM/YYYY') => moment.unix(time).format(format)
