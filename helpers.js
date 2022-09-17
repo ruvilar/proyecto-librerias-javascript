@@ -8,4 +8,4 @@ const button = document.getElementById('newTask'),
 
       cancelForm.addEventListener('click', () => {
         asideForm.classList.remove('active')
-      })
+      });
